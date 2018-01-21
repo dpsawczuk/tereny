@@ -1,0 +1,233 @@
+html, body { 	background-color: #fff;	color: #000;	margin: 0;	padding: 0;	text-align: center;}
+#top 		{width: 1320px;	margin-left: auto;	margin-right: auto;	text-align: left;}
+#NAGLOWEK 	{background-color: #fff; width: 1320px; height: 40px;color: #737373;font-family: Trebuchet MS, Tahoma;font-size: 14px;line-height:15px;text-align:right;margin-top:0px; padding-top:15px;position: fixed; top:0px; border-style: solid; border-width: 2px; border-color: #BCBCBC; border-top: none; border-left: none; border-right: none}
+#MENU 		{width: 60px; float: right; overflow: hidden;}
+#menu 		{width: 60px; position: absolute;}
+#INFORMACJE 	{width: 300px; float: left; overflow: hidden; background-color: #fff; text-align:center;}
+#TRESC 		{width: 930px; overflow: hidden; z-index:-1; padding-left: 30px; background-color:#Fff;}
+#STOPKA 		{clear: both; width: 100%;	background-color: #fff;}
+.ramka		{border-style: solid; border-width: 2px; border-color: #BCBCBC; border-right: none; border-top: none;min-height:870px;margin-top: 55px;}
+
+/*--- */
+#menu						{width: 60px; position:fixed; top:250px; z-index:999;}
+#menu, #menu ul, #menu ol 		{list-style-type:none; padding:0; margin:0;}
+#menu 						{background-color:#FFF; font-size:16px; line-height:2em; text-align:center; position:relative; float:left; font-family: Trebuchet MS, Tahoma, Verdana, Arial;}
+#menu a 						{display:block; text-decoration:none; color:#000; padding:3px 2px 2px 2px;}	  
+#menu > li > a					{padding-top:13px;}
+#menu > li 					{width:60px; height:60px; margin:10px; margin-left:0px; border: 2px solid #A1A1A1; border-radius:40px; cursor:pointer; }
+#menu > li:hover 				{width:215px; position:relative;	left:-155px; border-top-left-radius: 10px; border-bottom-left-radius: 0px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; opacity: 0.97;}
+#menu > li:hover > a 			{color: #878787; font-weight: bold; font-size: 30px;}
+#menu > li:hover > ul			{display:block; position: relative;}
+#menu > li.Analiza:hover		{background-color:#FFF; border-color:#CC6600;}
+#menu > li.Edycja:hover		{background-color:#FFF; border-color:#82D5FF;}
+#menu > li.Opcje:hover		{background-color:#FFF; border-color:#9494B8;}
+#menu > li:hover > ul.Analiza	{background-color: #FFF; border: 2px solid #CC6600; border-top: none;}
+#menu > li:hover > ul.Edycja	{background-color:#FFF; border: 2px solid #82D5FF; border-top: none;}
+#menu > li:hover > ul.Opcje	{background-color:#FFF; border: 2px solid #9494B8; border-top: none; }
+/*--- */
+#menu > li > ul 						{width: 150px; display:none; left:-2px;  margin-top:13px;}
+#menu > li > ul > li 					{height: 40px; padding:2px;}
+#menu > li > ul > li > a 					{border:0px solid #FFF; color: #000;}
+#menu > li > ul > li:hover				{opacity: 0.99; font-weight: bold;}
+#menu > li > ul.Analiza > li:hover > a 	{color:#552A00;}
+#menu > li > ul.Edycja > li:hover > a 	{color:#003A57;}
+#menu > li > ul.Opcje > li:hover > a 		{color:#33334D;}
+#menu > li > ul.Analiza > li:hover 		{background-color: #CC6600;}
+#menu > li > ul.Edycja > li:hover 		{background-color: #82D5FF;}
+#menu > li > ul.Opcje > li:hover 		{background-color: #9494B8;}
+
+#INFORMACJE h1 				{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:76px; color:gray; margin: -35px 0 -40px 0;padding:0;}
+#INFORMACJE h2				{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:26px;margin-top:40px;letter-spacing:10px;}
+#INFORMACJE h3				{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;margin-top:40px;letter-spacing:8px;}
+#INFORMACJE button.gr_nr		{width:26px; height:26px;padding: 5px 3px; margin: 0 3px;border: 1px solid black;border-radius: 13px;background-color:#FFF;}
+#INFORMACJE button.gr_ch		{width:18px; height:18px;padding: 0px -5px; margin: 0 30px;border: 1px solid gray;border-radius: 9px;background-color:#FFF;vertical-align:middle;}
+#INFORMACJE button.ed			{width:66px; height:26px;padding: 5px 3px; margin: 0 3px;border: 1px solid black;border-radius: 9px;background-color:#FFF;}
+#INFORMACJE p.wskazowki		{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:red;margin-top:20px;letter-spacing:2px;}
+#INFORMACJE p.tekst			{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:gray;margin-top:10px;letter-spacing:2px;}
+#INFORMACJE p.opis			{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:#999999;}
+#INFORMACJE .blok			{margin: 0 5px 20px 20px; padding: 5px 5px 10px 5px; border: 1px dotted gray;}
+#INFORMACJE .blok:hover		{background-color: #fff;box-shadow: 0px 0px 10px #888888;}
+#INFORMACJE .pomoc			{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:black;margin-top:20px; padding-left: 15px;letter-spacing:1px; line-height: 20px;text-align: justify;}
+#INFORMACJE .edt_lst_glo		{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:black;margin-top:20px; padding-left: 15px;letter-spacing:1px; line-height: 20px; height: 300px; overflow-y:auto; text-align:left; display: none;}
+#INFORMACJE .wykres			{margin: -10px 0px 10px 0 ; padding: 0 0 0 0;}
+#INFORMACJE .wykresKolumnowy {width: 260px;}
+#INFORMACJE .bledy			{display: none; margin: 0 5px 20px 20px; padding: 5px 5px 10px 5px; border: 1px dotted red;font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color: pink;}
+#INFORMACJE .bledy:hover		{background-color: #fff;box-shadow: 0px 0px 10px pink;}
+
+#wykresKolumnowy			{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:#999999;margin: 0; padding: 15px 0 10px 15px;}
+#wykresKolumnowy .nag		{font-size:14px;color:gray;margin:0 0 10px 0;letter-spacing:2px;}
+#wykresKolumnowy .kLewa		{width: 30px; height:18px; float:left; border: 1px solid gray;margin:1px;}
+#wykresKolumnowy .kLewaN		{width: 32px; height:18px; float:left; border-bottom: 1px solid gray;margin:1px;}
+#wykresKolumnowy .kPrawa		{width: 184px; height:18px; float:left;border-bottom: 1px solid gray;margin:1px; padding-left:10px;text-align:left;}
+#wykresKolumnowy .kPrawaF	{height:18px;float:left;border: 1px solid gray;margin:1px; padding-left:10px;text-align:left;}
+#wykresKolumnowy .kPrawaE	{height:18px;float:left;}
+#wykresKolumnowy .br			{clear:both;}
+
+#LISTA							{font-family: Georgia,serif, Trebuchet MS, Tahoma, Verdana, Arial;font-weight: 500;font-size:16px;color:black;margin-top:0px; padding-left: 15px;letter-spacing:1px; line-height: 22px; height: 400px; overflow-y:auto; text-align:left;}
+#LISTA::-webkit-scrollbar-track 	{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); background-color: #F5F5F5;}
+#LISTA::-webkit-scrollbar		{width: 10px;background-color: #F5F5F5;}
+#LISTA::-webkit-scrollbar-thumb	{background-color: #cccccc;border-radius:10px;background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2) 50%, transparent, transparent)}
+
+#tresc .nag 					{margin: 10px 0 0 0; z-index: 7} /*position: fixed; */
+#tresc .nazwa				{width: 350px; padding: 30px 0 10px 40px; color:#535353; font-family: Trebuchet MS, Tahoma; font-size: 26px; float: left;}
+#tresc .submit				{padding: 20px 40px 20px 0; color:#535353; font-family: Trebuchet MS, Tahoma; font-size: 24px; float: right;}
+#TRESC .lewy					{float:left;}
+#TRESC .prawy				{float:left;padding-left:80px; width: 250px;}
+#TRESC button.grnr			{width:26px; height:26px;padding: 5px 3px; margin: 0 3px;border: 1px solid #808080;border-radius: 13px;background-color:#FFF;color: #808080;cursor:pointer;}
+#TRESC button.grnr:hover		{box-shadow: 0px 0px 10px #888888;}
+#TRESC button.grnrch			{width:26px; height:26px;padding: 5px 3px; margin: 0 3px;border: 1px solid #808080;border-radius: 13px;background-color:#cccccc;color: #808080}
+#TRESC input.knefel			{width:108px; height:26px;padding: 5px 3px; margin: 0 3px;border: 1px solid #82D5FF;border-radius: 13px;background-color:#FFF;color: #808080}
+#TRESC input.szTeren			{width: 160px;height:13px;background-color:#fff;font-size:14px;margin-top: 18px; padding:6px;border: 1px solid #82D5FF;border-right:none;}
+#TRESC input.szGuzik			{position:relative; top:-1px;background-color:#fff; width: 54px; height: 27px; border: 1px solid #82D5FF; border-top-right-radius: 13px;border-bottom-right-radius: 13px; border-left:none;color: #808080}
+#TRESC h1					{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:76px; color:gray; margin: -25px 0 -15px 0;padding:0;}
+#TRESC h2 					{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:26px;margin-top:40px;letter-spacing:10px;}
+#TRESC h3					{font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;margin-top:0px;letter-spacing:8px;color:#808080;line-height:36px}
+
+#sterBox					{position:relative; width:920px;margin-top: 5px;padding: 10px 0 20px 0;background-color:#FFF;z-index:10;}
+#sterBox .sterBoxLeft		{float:left;width: 400px;}
+#sterBox .sterBoxCenter		{float:left;width: 150px; margin: 12px 40px 0 20px;font-family: Trebuchet MS, Tahoma, Verdana, Arial;font-size:14px;color:#808080; text-align: center;}
+#sterBox .sterBoxRight		{float:left;line-height:15px;}
+#sterBox .br					{clear: both;}
+
+#f_lista .submit input			{height: 30px; border: 1px solid #5AA0D3;width: 80px; margin: 3px}
+#f_lista .submit button		{height: 30px; border: 1px solid #5AA0D3;width: 30px; margin: 3px; display: none;}
+#f_lista .teren				{padding: 5px 0 45px 6px; font-family: Trebuchet MS, Tahoma;font-size: 14px; }
+#f_lista .teren:hover		{padding: 5px 0 45px 6px; background-color: #cce5ff;}
+#f_lista .teren_nag 			{margin: 0; background-color: #B9B9B9; font-family: Trebuchet MS, Tahoma;font-size: 14px; color:#535353;} /*CAC8D5*/
+#f_lista .ter_nag 			{margin: 0; background-color: #C3C3C3; font-family: Trebuchet MS, Tahoma;font-size: 16px; color:#4BABE4; padding: 6px 0 11px 0; text-align: center; font-weight: bold; letter-spacing: 3px;}
+#f_lista .teren_br2			{width: 0px; height: 10px; clear: left}
+#f_lista .teren_br3			{width: 0px; height: 5px; clear: left}
+#f_lista .nag				{margin: 60px 0 0 0; z-index: 7;position: fixed;background-color: #C3C3C3;}
+
+#f_lista .ter_opr_lp			{width: 15px;  margin: 0; padding: 0px; color: #525252; float: left;}
+#f_lista .ter_opr_lp2		{width: 35px;  margin: 0; padding: 0px; color: #525252; float: left;}
+#f_lista .ter_opr_naz		{width: 155px; margin: 0; padding: 0px; color: #000000; float: left;}
+#f_lista .ter_opr_glo		{width: 95px; margin: 0; padding: 0 0 0 30px; color: #525252;  float: left;}
+#f_lista .ter_opr_dpo		{width: 80px; margin: 0; padding: 0 0 0 20px; float: left; color: #525252;}
+#f_lista .ter_opr_dzd		{width: 120px; margin: 0; padding: 0 5px 0 0; color: #000000; float: left; border-color: #C3C3C3;}
+#f_lista .ter_opr_pr0		{width: 20px; color: #525252; float: left; padding: 0 25px 0 10px;}
+#f_lista .ter_opr_pr3		{width: 20px;color: orange;float: left; padding: 0 25px 0 10px;}
+#f_lista .ter_opr_pr4		{width: 20px;color: red;float: left; padding: 0 25px 0 10px;}
+#f_lista .ter_opr_zcz		{width: 20px; margin: 0; padding: 0 3px 0 3px; float: left; text-align: center; border: 1px solid #fff;} /*#C3C3C3 */
+#f_lista .ter_opr_zczal		{width: 227px; margin: 0; padding: 0 3px 0 3px; float: left; text-align: center}
+#f_lista .ter_opr_pon		{width: 50px; margin: 0; padding: 0 0 0 15px; float: left; text-align: center}
+#terdzd						{background-color: #C3C3C3; border: 1px solid #C3C3C3; color: #000000 ;font-family: Trebuchet MS, Tahoma;font-size: 14px;text-decoration: none;margin: 0; padding-left: 10px;}
+
+#f_lista .ter_dst_lp			{width: 15px;  margin: 0; padding: 0px; color: #000000; float: left;}
+#f_lista .ter_dst_naz		{width: 270px; margin: 0; padding: 0px; color: #000000; float: left;}
+#f_lista .ter_dst_pr0		{width: 20px; margin: 0; padding: 0 15px 0 15px; color: #000000; float: left;}
+#f_lista .ter_dst_dzd		{width: 80px; margin: 0; padding: 0 15px 0 10px; color: #000000; float: left;}
+#f_lista .ter_dst_dpo		{width: 120px; margin: 0; padding: 0 5px 0 0; color: #000000; float: left;}
+#f_lista .ter_dst_glo		{width: 135px; margin: 0; padding: 0 0 0 30px; color: #000000; float: left;}
+#f_lista .ter_glos			{width: 200px; height: 24px; margin: 0; padding-bottom: 0px; color: #000000;font-size: 13px;background-color: #D3D7DA; border-color: #C3C3C3;}
+
+.dymek						{width:100px; height:100px; border: 1px solid #005BB7; padding: 6px; background-color: #7DBEFF; display: none; z-index: 999; font-size: 12px; border-radius:4px; color: #202020; font-weight: bold; font-family: Trebuchet MS, Tahoma;}
+.err, .errp			 		{margin: 0; font-family: Trebuchet MS, Tahoma;font-size: 12px; color: red; padding: 6px 20px 6px 20px; clear: left;}
+
+#t_lista .teren				{padding: 4px 0 24px 15px; font-family: Trebuchet MS, Tahoma;font-size: 14px;clear: left;}
+#t_lista .teren:hover		{padding: 4px 0 24px 15px; background-color: #E6E6E6;}
+#t_lista .t_br				{width: 0px; height: 10px; clear: left;}
+#t_lista .t_br_nag			{width: 0px; height: 10px; clear: both;}
+#t_lista .t_nr				{width: 70px;  margin: 0; padding: 0px; float: left;}
+#t_lista .t_ul				{width: 420px;  margin: 0; padding: 0px; float: left;}
+#t_lista .t_nr_nag			{width: 70px;  margin: 0; padding: 0px; margin-left: 13px; float: left;}
+#t_lista .t_ul_nag			{width: 400px;  margin: 0; padding: 0px; float: left;}
+#t_lista .t_msz				{width: 60px;  margin: 0; padding: 0px; float: left;}
+#t_lista .t_gr				{width: 60px;  margin: 0; padding: 0px; float: left;}
+#t_lista .t_dz				{width: 100px;  margin: 0; padding: 0px; float: left;}
+
+.szczeg						{height: 350px; margin: 25px 15px 20px 0px; padding: 10px 0 10px 10px; background-image: url(../img/bg.png);}
+.szczeg iframe				{float: left;}
+
+#t_lista .form				{width:435px; float:left; margin-right: 25px;}
+#t_lista .t_nag 				{padding-bottom: 5px; background-color: #B9B9B9; font-family: Trebuchet MS, Tahoma;font-size: 14px; color:#535353;}
+#t_lista .label				{width:70px; float:left; text-align:right; font-family: Trebuchet MS, Tahoma;font-size: 14px;padding: 1px 7px 0 0;}
+#t_lista .ter_szcz			{float: left;background-color: #C3C3C3; border: 1px solid #C3C3C3; color: #000000 ;font-family: Trebuchet MS, Tahoma;font-size: 14px; height: 16px;}
+#t_lista .ter_zapis			{background-color: #C3C3C3; border: 1px solid #005BB7; color: #000000 ;font-family: Trebuchet MS, Tahoma;font-size: 14px;}
+#t_lista .te_br				{width: 0px; height: 3px; clear: left}
+
+#t_lista .i_t_nr				{width: 50px; height: 18px; color: #000000; font-size: 13px;background-color: #D3D7DA; border-color: #C3C3C3;margin-left: 10px;}
+#t_lista .i_t_ul				{width: 350px; height: 18px; color: #000000; font-size: 13px;background-color: #D3D7DA; border-color: #C3C3C3;margin-left: 20px;}
+#t_lista .i_t_gr				{width: 30px; height: 18px; color: #000000; font-size: 13px;background-color: #D3D7DA; border-color: #C3C3C3;margin-left: 111px;}
+
+#k_lista .t_br_nag			{width: 0px; height: 10px; clear: both;}
+#k_lista .submit input			{height: 30px; border: 1px solid #5AA0D3;width: 80px; margin: 3px}
+#k_lista .submit button		{height: 30px; border: 1px solid #5AA0D3;width: 30px; margin: 3px; display: none;}
+
+#terListBox .k_kolumna		{margin: 5px 0 0 3px; float:left;padding-right:4px;border-top-left-radius: 4px;border-top-right-radius: 13px;}
+#terListBox .k_kolumna:hover	{background-color: #e6e6e6;}
+#terListBox .k_kolumna:hover > .k_wiersz_one {font-weight: bold;text-shadow:0 0 20px gray;}
+#terListBox .k_wiersz_one	{margin: 0px 0 2px 0; padding:2px;color: #000000;font-size: 15px;font-family: Trebuchet MS, Tahoma; padding: 10px 2px 10px 2px;z-index:11;}
+#terListBox .k_wiersz		{margin: 10px 0 5px 0; padding:3px;outline: 1px solid darkgray;}
+#terListBox .k_wiersz:hover	{background-color: #82D5FF;}
+#terListBox .k_czym			{width: 35px; height: 18px; color: #000000; font-size: 12px; border-color: #C3C3C3;cursor:pointer;}
+#terListBox .k_kto			{width: 133px; height: 18px; color: #000000; font-size: 12px; border-color: #C3C3C3;margin: 0 0 0 2px;cursor:pointer;}
+#terListBox .k_czym_d		{width: 35px; height: 18px; color: #000000; font-size: 12px; border-color: #C3C3C3;float:left;border: 1px solid darkgray;background-color: #fff;text-align: center;cursor:not-allowed;}
+#terListBox .k_kto_d		{width: 129px; height: 18px; color: #000000; font-size: 12px; border-color: #C3C3C3;margin: 0 0 0 2px;float:right;border: 1px solid darkgray;background-color: #fff;cursor:not-allowed;}
+#terListBox .k_datao		{width: 82px; height: 18px; color: #000000; font-size: 12px; border: 1px solid #C3C3C3;margin: 2px 2px 0px 0px; text-align: center;cursor:pointer;}
+#terListBox .k_datad		{width: 82px; height: 18px; color: #000000; font-size: 12px; border: 1px solid #C3C3C3;margin: 2px 0px 0px 0px; text-align: center;cursor:pointer;}
+#terListBox .k_datao_d		{width: 82px; height: 18px; color: #000000; font-size: 12px; border: 1px solid #C3C3C3;margin: 2px 2px 0px 0px; text-align: center; background-color: #fff;float:left;cursor:not-allowed;}
+#terListBox .k_datad_d		{width: 82px; height: 18px; color: #000000; font-size: 12px; border: 1px solid #C3C3C3;margin: 2px 0px 0px 0px; text-align: center; background-color: #fff;float:right;cursor:not-allowed;}
+
+#terList				{margin-right:25px;}
+#terList .l_nag			{margin: 0px; padding: 4px 2px 0 2px;border-top-left-radius: 4px;border-top-right-radius: 13px;background-color: #d9d9d9;}
+#terList .l_wiersz		{margin: 0px; padding: 4px 2px 0 2px;border-bottom-left-radius: 4px;}
+#terList .l_wiersz:hover{background-color: #e6e6e6;}
+#terList .l_kolumna		{margin: 2px 0 2px 0; padding:2px;border: 1px darkgray; border-bottom-style: dotted; float:left;}
+#terList .l_kol_lp1		{margin: 2px 0 2px 0; padding:2px 7px 2px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:24px;text-align: right;}
+#terList .l_kol_ter1	{margin: 2px 0 2px 0; padding:2px 7px 2px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:24px;text-align: center;}
+#terList .l_kol_naz1	{margin: 2px 0 2px 0; padding:2px 7px 2px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:295px;text-align: left;}
+#terList .l_kol_glo1	{margin: 2px 0 2px 0; padding:2px 7px 2px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:135px;text-align: left;}
+#terList .l_kol_dat1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:80px;text-align: center;}
+#terList .l_kol_dni1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:44px;text-align: center;}
+#terList .l_kol_raz1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:44px;text-align: center;}
+#terList .l_kol_stp1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:80px;text-align: center;}
+#terList .l_kol_pub1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:59px;text-align: center;}
+#terList .l_kol_krt1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:20px;text-align: center;}
+
+#terList .l_kol_lp		{margin: 2px 0 2px 0; padding:2px 7px 2px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:24px;text-align: right;}
+#terList .l_wiersz > div:hover{font-weight: bold;text-shadow:0 0 20px #0086ce}
+#terList .l_kol_ter		{margin: 2px 0 2px 0; padding:2px 7px 2px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:24px;text-align: center;}
+#terList .l_kol_naz		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:295px;text-align: left;}
+#terList .l_kol_glo		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:135px;text-align: left;}
+#terList .l_kol_dat		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:80px;text-align: center;}
+#terList .l_kol_dni		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:44px;text-align: center;}
+#terList .l_kol_dni_o1	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:44px;text-align: center;color: #ff6600}
+#terList .l_kol_dni_o2	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border: 1px dotted #ff3300; float:left; width:42px;text-align: center;color: #ff3300;border-radius: 7px;}
+#terList .l_kol_dni_o3	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border: 1px solid #ff0000; float:left; width:42px;text-align: center;color: #ff0000;background-color: #ffcccc;border-radius: 7px;}
+#terList .l_kol_dni_o4	{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:44px;text-align: center;color: #ffffff; background-color: #ff0000;border-radius: 7px;}
+#terList .l_kol_raz		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:44px;text-align: center;}
+#terList .l_kol_stp		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:80px;text-align: center;}
+#terList .l_kol_pub		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:59px;text-align: center;}
+#terList .l_kol_krt		{margin: 2px 0 2px 0; padding:2px 7px 1px 2px;border: 1px darkgray; border-bottom-style: dotted; float:left; width:20px;text-align: center;}
+
+#terList .l_szTerenu 	{width: 150px; height: 16px; color: #000000; text-align: center;cursor:pointer;border: 1px; margin-top: -2px;}
+#terList .l_szKto	 	{width: 90px; height: 16px; color: #000000; text-align: center;cursor:pointer;border: 1px; margin-top: -2px;}
+#terList .l_datao		{width: 95px; height: 16px; color: #000000; text-align: center;cursor:pointer;border: 0px; margin-top: -2px;}
+#terList .l_datad		{width: 65px; height: 18px; color: #000000; font-size: 12px; border: 1px solid #C3C3C3;margin: 2px 0px 0px 0px; text-align: center;cursor:pointer;}
+
+.stat_kolumna				{color: #000000; font-size: 15px;font-family: Trebuchet MS, Tahoma; width: 230px; margin: 0 0 20px 20px;}
+#kol_1						{float: left; margin: 0 0 0 120px}
+#kol_2						{float: left;}
+#kol_3						{float: left;} /*border: 1px solid red; */
+.wykres						{float: left; margin: -10px 0 0 0 ; padding: 0 0 0 0;}
+
+
+#logs							{width: 290px;height:200px; overflow:auto;color: #000000;font-family: Trebuchet MS, Tahoma;font-size: 12px;line-height:8px;text-align:left;}
+#logs::-webkit-scrollbar-track	{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 5px;background-color: #F5F5F5;}
+#logs::-webkit-scrollbar		{width: 9px;background-color: #F5F5F5;}
+#logs::-webkit-scrollbar-thumb	{border-radius: 5px;-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.3);background-color: #7a7a7a;}
+#logs .nag						{color: #000000;font-family: Trebuchet MS, Tahoma;font-size: 16px;text-align:center;background-color:#F0DDE2;line-height:22px;}
+#logs .nok						{color:red;}
+#logs .ok						{width:126px; height:26px;padding: 5px 3px; margin: 20px 30px;border: 1px solid black;border-radius: 13px;background-color:#FFF;}
+
+
+
+#form .opis				{font-size: 18px; font-family: Trebuchet MS,Tahoma, Verdana, Arial; width: 100px; height: 25px;float: left; text-align:right; margin-right:20px;}
+#form .pole				{float: left;width: 300px; height: 25px;}
+#form .tekst				{font-size: 20px; font-family: Trebuchet MS,Tahoma, Verdana, Arial; width: 300px; height: 25px; border-style: dotted; border-color: #000000; border-width: 1px}
+#form .br				{clear: both; width: 10px; height:25px;}
+/* #form label				{font-size: 18px; font-family: Trebuchet MS,Tahoma, Verdana, Arial; margin-right:20px;} */
+
+.tbr						{clear: both;}
+

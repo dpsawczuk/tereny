@@ -1,0 +1,10 @@
+html, body {padding:0;margin:0;height:100%;width:100%;}
+html {display:table;}
+body {display:table-cell;vertical-align:middle;text-align:center;}
+#middle {width:360px; height:140px;margin:0 auto;border:1px solid black;padding:20px;border-radius: 3px;}
+* html #middle {position:absolute;top:expression((x=(document.documentElement.offsetHeight-this.offsetHeight)/2)<0?0:x+'px'); left:50%;  margin-left:-200px; /* połowa szerokosci warstwy */}
+.l_i{height:30px;background-color:#fff;font-size:18px;margin-top: 18px; padding:6px;border: 1px solid black;border-right:none;}
+.l_p{position:relative; top:-1px;background-color:#fff; width: 44px; height: 44px; border: 1px solid black; border-top-right-radius: 22px;border-bottom-right-radius: 22px; border-left:none;text-shadow:0 0 6px gray;}
+input[type=reset]:hover{text-shadow:0 0 16px red;}
+input[type=submit]:hover{text-shadow:0 0 20px #005682;}
+input:focus {outline: none!important;}
